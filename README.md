@@ -1,4 +1,4 @@
-Various Extensions
+### **Various Extensions**
 
 A few small general utility classes that can be used in an project.
 
