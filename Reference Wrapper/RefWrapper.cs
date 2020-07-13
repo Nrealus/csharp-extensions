@@ -26,7 +26,7 @@ namespace Nrealus.Extensions.ReferenceWrapper
     /// <summary>
     /// A wrapper class whose initial purpose is to remove any direct references to the wrapped object.
     /// In fact, a multitude of direct references to an object makes it hard to keep track of all of them, and can result in unwanted scenarios,
-    /// such as an object outliving its supposed lifespan instead of being collected after it's no longer used (or "destroyed"), because of some remaining non-null references to the object.
+    /// such as an object outliving its supposed lifespan instead of being collected after it's no longer used (or "destroyed"), because of some remaining non-null references to the it.
     /// To prevent that, we use references to a wrapper that contains one single reference to this object.
     /// Once the object is not needed anymore, we set the reference to it in the wrapper to null, and "clear" the rest of the wrapper.
     /// "Used" wrappers do not contain any useful information anymore, and will then eventually be collected, or may be used again with a pooling system.
