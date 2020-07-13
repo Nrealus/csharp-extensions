@@ -1,6 +1,6 @@
 ### **Various Extensions**
 
-A few small general utility classes that can be used in an project.
+A few simple general utility classes that can be used in probably any project.
 
 Though the present code is in c#, it can be easily converted to other languages.
 
