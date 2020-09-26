@@ -1,3 +1,6 @@
+**NOTE** : There are probably better solutions to the things addressed here. These were done with a quick/lightweight approach.
+Additionally, I'm not considering extending this further for now, as I will probably be done with C# for the time being (i.e. until I have to use Unity again)
+
 ### **Various Extensions**
 
 A few simple general utility classes that can be used in probably any project.
